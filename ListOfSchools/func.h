@@ -9,7 +9,7 @@
 typedef struct struct_school {
 
 	char school_name[50];
-	int ID;
+	int ID; 
 	double area;
 	int num_students;
 	char principal_name[50];
