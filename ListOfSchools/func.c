@@ -826,7 +826,7 @@ School_Data *qSort(School_Data *start) {
 	{
 
 		if (adress[i + 1] != NULL && adress[i]->num_students < adress[i + 1]->num_students) { 
-			School_Data *temp = adress[i];
+			School_Data *temp = adress[i]; 
 			adress[i] = adress[i + 1];
 			adress[i + 1] = temp;
 
