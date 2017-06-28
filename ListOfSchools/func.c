@@ -12,7 +12,7 @@ School_Data *AddSchool(School_Data *newest, School_Data *start) {
 	School_Data *newSchool, *mostRecent = newest;
 	newSchool = malloc(sizeof(School_Data));
 	char read[5120] = { 0 };
-	const int zeroTest = 0;
+	const int zeroTest = 0; 
 
 	system("cls");
 
