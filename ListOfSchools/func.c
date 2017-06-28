@@ -12,8 +12,8 @@ School_Data *AddSchool(School_Data *newest, School_Data *start) {
 	School_Data *newSchool, *mostRecent = newest;
 	newSchool = malloc(sizeof(School_Data));
 	char read[5120] = { 0 };
-	const int zeroTest = 0; 
-	 
+	const int zeroTest = 0;
+
 	system("cls");
 
 
@@ -822,10 +822,10 @@ School_Data *qSort(School_Data *start) {
 		current_school = current_school->next;
 	}
 
-	for (int i = 0; i<countertest; i++)
+	for (int i = 0; i < countertest; i++)
 	{
 
-		if (adress[i + 1] != NULL && adress[i]->num_students < adress[i + 1]->num_students) {
+		if (adress[i + 1] != NULL && adress[i]->num_students < adress[i + 1]->num_students) { 
 			School_Data *temp = adress[i];
 			adress[i] = adress[i + 1];
 			adress[i + 1] = temp;

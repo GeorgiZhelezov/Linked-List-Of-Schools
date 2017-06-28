@@ -11,7 +11,7 @@ int main() {
 	-figure out how to sort the list with an array !;
 	-figure out if it's possible to sort the list with the qsort() function;
 
-	=============================================================================*/ 
+	=============================================================================*/
 	char command[16], enter = 0;
 	int warningCheck = 0;
 
