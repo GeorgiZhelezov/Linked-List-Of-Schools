@@ -1,5 +1,5 @@
 # Linked-list-of-schools
-My second semseter assignment in my C programming class
+My second semester assignment in my C programming class
 
 General description of the program:
 
